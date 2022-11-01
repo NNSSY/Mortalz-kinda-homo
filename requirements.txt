@@ -1,0 +1,5 @@
+py-cord
+colorama
+requests
+chat-exporter
+discord-py-slash-command==1.1.2
