@@ -652,4 +652,4 @@ async def ticket_error(ctx, error):
     if isinstance(error, MissingPermissions):
         text = "Sorry {}, you do not have permissions to do that!".format(ctx.message.author)
         await ctx.reply(text)
-bot.run("MTAzNTAyODk5MjcyMzUyOTc3OA.Garc59.hjv2CxVlq_STEsJXpPkwXMyjdgwoscSsAy-5lA")
+bot.run(token=token)
